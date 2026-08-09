@@ -1,0 +1,39 @@
+body{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: deepskyblue;
+}
+.calculator{
+	background-color: #292929;
+	padding: 30px;
+	border-radius: 7px;
+	box-shadow: 0 5px;
+}
+.calculator button{
+	width: 60px;
+	height: 45px;
+	font-size: 1.3em;
+	margin: 5px;
+	border-radius: 3px;
+	border: none;
+}
+.calculator input{
+	margin: 5px;
+	width: 275px;
+	height: 45px;
+	background: #999;
+	color: #000;
+	font-size: 1.4em;
+}
+
+
+
+
+
+
+
+
+

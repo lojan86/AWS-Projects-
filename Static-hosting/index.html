@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Calculator</title>
+</head>
+<body>
+<div class="calculator">
+	<div>
+		<input type="text" id="screen" disabled>
+	</div>
+	<div>
+		<button onclick="entry('9')">9</button>
+		<button onclick="entry('8')">8</button>
+		<button onclick="entry('7')">7</button>
+		<button onclick="entry('+')">+</button>
+	</div>
+	<div>
+		<button onclick="entry('6')">6</button>
+		<button onclick="entry('5')">5</button>
+		<button onclick="entry('4')">4</button>
+		<button onclick="entry('-')">-</button>
+	</div>
+	<div>
+		<button onclick="entry('3')">3</button>
+		<button onclick="entry('2')">2</button>
+		<button onclick="entry('1')">1</button>
+		<button onclick="entry('*')">x</button>
+	</div>
+	<div>
+		<button onclick="entry('0')">0</button>
+		<button onclick="clrScreen()">C</button>
+		<button onclick="calculate()">=</button>
+		<button onclick="entry('/')">/</button>
+	</div>
+</div>
+<script type="text/javascript">
+	const x=document.getElementById('screen');
+	function entry(userValue){
+		x.value=x.value+userValue;
+	}
+	function calculate(){
+		try{
+			x.value=eval(x.value);
+		}
+		catch(error){
+			x.value="invalid entry";
+		}
+	}
+	function clrScreen(){
+		x.value="";
+	}
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
