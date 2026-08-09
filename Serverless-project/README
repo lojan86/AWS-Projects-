@@ -1,4 +1,4 @@
-## AWS Serverless Contact Management System
+# AWS Serverless Contact Management System
 
 A serverless contact management web application built using Amazon API Gateway, AWS Lambda, Amazon DynamoDB, IAM, and HTML/CSS/JavaScript.
 
