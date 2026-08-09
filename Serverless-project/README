@@ -1,0 +1,5 @@
+#AWS Serverless Contact Management System
+
+A serverless contact management web application built using Amazon API Gateway, AWS Lambda, Amazon DynamoDB, IAM, and HTML/CSS/JavaScript.
+
+The application allows users to submit their contact information through a web form. The request is sent to an API Gateway endpoint, processed by a Python-based AWS Lambda function, and stored in an Amazon DynamoDB table.
