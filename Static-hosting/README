@@ -1,0 +1,20 @@
+AWS S3 Static Website Hosting
+
+A simple static website hosted using Amazon S3 as part of my AWS learning journey.
+
+In this project, I used both the AWS Management Console and AWS CLI to create and configure an S3 bucket, manage permissions, and upload website files. Working with both approaches helped me understand AWS from both a GUI-based and command-line perspective.
+
+☁️ AWS Services & Tools
+Amazon S3
+AWS Management Console
+AWS CLI
+HTML
+CSS
+
+🚀 What I Learned
+Creating and configuring an S3 bucket
+Uploading website files to Amazon S3
+Configuring permissions for static website hosting
+Hosting a static website using S3
+Managing AWS resources through the AWS Management Console
+Using AWS CLI commands to automate S3 operations
